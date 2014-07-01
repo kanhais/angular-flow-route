@@ -1,0 +1,18 @@
+<div class="table-responsive">
+  <table class="table table-bordered table-condensed table-hover">
+   <thead>
+       <tr>
+       <th ng-repeat="data in tableData.headers">{{data}}</th>
+	   </tr>
+   </thead>
+   <tbody>
+       <tr ng-repeat="data in tableData.rows">
+       <td>{{data[0]}}</td>
+	   <td>{{data[1]}}</td>
+	   <td>{{data[2]}}</td>
+	   <td>{{data[3]}}</td>
+	   <td>{{data[4]}}</td>
+	   </tr>
+   </tbody>	   
+  </table>
+</div>

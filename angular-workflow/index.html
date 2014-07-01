@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular Workflow</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" type="text/css"/>
+	<link rel="stylesheet" href="css/custom/_splashScreen.css">
+	<link rel="stylesheet" href="css/custom/_loginPage.css">
+	<link rel="stylesheet" href="css/custom/_statistics.css">
+    <script src="lib/jQuery.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+	<script src="controllers/controllers.js"></script>
+	<script src="router.js"></script>
+
+</head>
+<body ng-app="workflow" ng-controller="mainController">
+<div class="container-fluid">
+    <div ng-view></div>
+</div>
+
+</body>
+</html>

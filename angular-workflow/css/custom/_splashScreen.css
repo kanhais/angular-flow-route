@@ -1,0 +1,7 @@
+.splash-screen-container {
+text-align: center;
+background: #F5F5DC;
+}
+.splash-screen-container .btn-group{
+margin: 10px;
+}

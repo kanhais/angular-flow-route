@@ -1,0 +1,12 @@
+.label{
+color: black;
+}
+.login-screen-container .text-input{
+margin: 20px 0 10px 0;
+}
+.login-screen-container .checkbox-input{
+margin: 10px 0 10px 0;
+}
+.login-screen-container .signin-button{
+margin: 10px 0 10px 0;
+}
