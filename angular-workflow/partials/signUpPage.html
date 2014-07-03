@@ -1,3 +1,46 @@
-<div class="login-page-container">
-    <h1>This a Sign Up page</h1>
+
+<div class="row-fluid">
+    <div class="span12 signup-screen-container" style="float: none; margin: 0 auto;">
+	  <form class="form-horizontal" role="form">
+   <div class="form-group text-input">
+    <label for="name" class="col-sm-2 control-label">Name</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="name" placeholder="Name" ng-model="name">
+    </div>
+  </div>	  
+  <div class="form-group text-input">
+    <label for="username123" class="col-sm-2 control-label">Username</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="username123" placeholder="Username" ng-model="userName">
+    </div>
+  </div>
+  <div class="form-group text-input">
+    <label for="password123" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-6">
+      <input type="password" class="form-control" id="password123" placeholder="Password" ng-model="passwordField">
+    </div>
+  </div>
+  <div class="form-group text-input">
+    <label for="passwordConfirmation" class="col-sm-2 control-label">Password Confirmation</label>
+    <div class="col-sm-6">
+      <input type="password" class="form-control" id="passwordConfirmation" placeholder="Confirm Password" ng-model="confirmPasswordField">
+    </div>
+  </div>
+  <div class="form-group checkbox-input">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" ng-model="contactMe"> Contact me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group signin-button">
+    <div class="col-sm-offset-2 col-sm-10">
+     <a href="#/signup" class="btn btn-primary" role="button">Submit</a>
+	 <a href="#/login" class="btn btn-primary" role="button">Already a user</a>
+    </div>
+  </div>
+</form>
+	</div>
 </div>

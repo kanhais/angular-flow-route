@@ -1,0 +1,13 @@
+.main-screen-container{
+text-align: center;
+margin-top: 30px;
+background: #FFE4C4;
+}
+.user-image,.user-details{
+float: left;
+}
+.user-info{
+width: 100%;
+margin: 15px 0 15px 0;
+padding: 0 10px 0 10px;
+}

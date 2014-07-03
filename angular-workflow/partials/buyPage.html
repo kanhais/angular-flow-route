@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-md-12 buy-screen-container">
+	<p> This is a page for Buy module, write your html here </p>
+	</div>
+	
+
+</div>
+<div class="table-responsive buy-table">
+  <table class="table table-bordered table-condensed table-hover">
+   <thead>
+       <tr>
+       <th ng-repeat="data in tableData.headers">{{data}}</th>
+	   </tr>
+   </thead>
+   <tbody>
+       <tr ng-repeat="data in tableData.rows">
+       <td><span class="glyphicon glyphicon-{{data[0]}}"></span></td>
+	   <td>{{data[1]}}</td>
+	   <td>{{data[2]}}</td>
+	   <td>{{data[3]}}</td>
+	   <td>{{data[4]}}</td>
+	   </tr>
+   </tbody>	   
+  </table>
+  
+</div>
+<div class="btn-group" style="text-align:center"><a href="#/main" class="btn btn-primary" role="button">Done</a></div>
+	
